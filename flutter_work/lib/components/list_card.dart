@@ -24,7 +24,7 @@ class ListCard extends StatelessWidget {
       },
       child: Container(
         height: 150,
-        color: Colors.amber[600],
+        color: Colors.indigo[200],
         child: Padding(
           padding: const EdgeInsets.fromLTRB(15, 5, 5, 5),
           child: Row(
