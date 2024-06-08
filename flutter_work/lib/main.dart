@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       initialRoute: '/',
       routes: {
-        '/': (context) => const HomeScreen(),
+        '/': (context) => HomeScreen(),
         '/pixel_screen': (context) => const PixelScreen(),
         '/tablet_screen': (context) => const TabletScreen(),
         '/laptop_screen': (context) => const LaptopScreen(),
