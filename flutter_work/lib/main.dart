@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+// import 'package:flutter_work/screens/data_table.dart';
+
 import 'package:flutter_work/screens/drive_screen.dart';
 import 'package:flutter_work/screens/home_screen.dart';
 import 'package:flutter_work/screens/laptop_screen.dart';
 import 'package:flutter_work/screens/pendrive_screen.dart';
 import 'package:flutter_work/screens/pixel_screen.dart';
 import 'package:flutter_work/screens/tablet_screen.dart';
-// import 'package:flutter_work/screens/pixel_screen.dart';
 // import 'package:flutter_work/whole_screen.dart';
 
 void main() {
