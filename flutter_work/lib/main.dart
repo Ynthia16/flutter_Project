@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_work/screens/animation.dart';
 // import 'package:flutter_work/screens/data_table.dart';
 
 import 'package:flutter_work/screens/drive_screen.dart';
@@ -20,9 +21,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // home: AnimationScreen
       initialRoute: '/',
       routes: {
-        '/': (context) => HomeScreen(),
+        '/': (context) => const AnimationScreen(),
+        // '/': (context) => HomeScreen(),
         '/pixel_screen': (context) => const PixelScreen(),
         '/tablet_screen': (context) => const TabletScreen(),
         '/laptop_screen': (context) => const LaptopScreen(),
